@@ -1,0 +1,165 @@
+body{
+  margin:0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(38, 37, 37);
+  font-family: 'Shantell Sans', cursive;
+}
+
+.header{
+  color:rgba(255, 255, 255, 0.52);
+  box-shadow: 0px 4px 3px 0px rgb(22, 22, 22);
+  width: 100vw;
+  height:10.74vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: rgba(21, 21, 21, 0.955);
+}
+
+.container{
+  color:rgba(255, 255, 255, 0.603);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7.1vh;
+  width: 90.15vw;
+  height:69.7vh;
+}
+
+.search{
+  font-family: 'Shantell Sans', cursive;
+  width: 241px;
+  height: 47px;
+  background-color: rgba(22, 22, 22, 0.945);
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  color:rgba(255, 255, 255, 0.52);
+  border-radius: 10px;
+  border:0px;
+  padding-left:20px;
+}
+.superw{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+}
+.wcontainer{
+  width: 53.4vw;
+  height: 58.9vh;
+  background-color: rgba(22, 22, 22, 0.936);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.d1{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 25.74vh;
+}
+.winfo{
+  width: 22.9vw;
+  height: 25.74vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(46, 46, 46);
+  box-shadow: 0px 3px 5px 0px rgb(42, 42, 42);
+}
+.maininfo{
+  width: 21.3vw;
+  height:11.5vh;
+  background-color: rgba(39, 38, 38, 0.94);
+  display: flex;
+  justify-content: space-between;
+}
+.thw,.minmax{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  width: 50%;
+}
+.humidity, .windspeed{
+  font-size: 16px;
+}
+.city{
+  width: 14.68vw;
+  height:4.6vh;
+  background-color: rgba(39, 38, 38, 0.94);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.black{
+  width:1px;
+  height:4.62vh; 
+  background-color: black;
+}
+.f,.c{
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.6vw;
+}
+.d2{
+  width: 5.2vw;
+  height:4.62vh;
+  background-color: rgb(184, 184, 184);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 8px;
+}
+.d3{
+  width:22.5vw;
+  height:17.1vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.day1,.day2,.day3{
+  height:90%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.wpic{
+  width: 128px;
+  height: 128px;
+}
+.dpic{
+  height: 25.74vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.weathergif{
+  width: 20.9vw;
+  height: 20.74vh;
+}
+.wdate{
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
