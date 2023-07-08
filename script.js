@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 /* eslint-disable max-len */
 /* eslint-disable require-jsdoc */
-let f_Url = 'http://api.weatherapi.com/v1/forecast.json?key=4e2c0da80bb14580863215411230607&q=New_Delhi&days=3&aqi=no&alerts=no';
+let f_Url = 'https://api.weatherapi.com/v1/forecast.json?key=4e2c0da80bb14580863215411230607&q=New_Delhi&days=3&aqi=no&alerts=no';
 const search = document.querySelector('.search');
 const temp = document.querySelector('.temp');
 const humidity = document.querySelector('.humidity');
@@ -26,7 +26,7 @@ getWeather(f_Url);
 search.addEventListener('keydown', (e)=> {
   if (e.key === 'Enter') {
     const q = search.value;
-    f_Url = `http://api.weatherapi.com/v1/forecast.json?key=4e2c0da80bb14580863215411230607&q=${q}&days=3&aqi=no&alerts=no`;
+    f_Url = `https://api.weatherapi.com/v1/forecast.json?key=4e2c0da80bb14580863215411230607&q=${q}&days=3&aqi=no&alerts=no`;
     getWeather(f_Url);
   }
 });
